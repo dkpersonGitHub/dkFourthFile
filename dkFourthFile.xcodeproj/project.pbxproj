@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		724D47E21A90DCDD000F151E /* notificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D47E01A90DCDD000F151E /* notificationViewController.m */; };
-		724D47E31A90DCDD000F151E /* notificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724D47E11A90DCDD000F151E /* notificationViewController.xib */; };
-		724D47E71A90DD79000F151E /* notiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D47E51A90DD79000F151E /* notiViewController.m */; };
-		724D47E81A90DD79000F151E /* notiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724D47E61A90DD79000F151E /* notiViewController.xib */; };
 		724D47EA1A90F0CC000F151E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724D47E91A90F0CC000F151E /* CFNetwork.framework */; };
 		724D47EC1A90F0D7000F151E /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 724D47EB1A90F0D7000F151E /* libz.1.1.3.dylib */; };
 		724D47EF1A90F0E7000F151E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724D47ED1A90F0DD000F151E /* MobileCoreServices.framework */; };
@@ -18,7 +14,15 @@
 		724D47F31A90F0FA000F151E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724D47F21A90F0FA000F151E /* UIKit.framework */; };
 		724D47F51A90F102000F151E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724D47F41A90F102000F151E /* Foundation.framework */; };
 		724D47F71A90F107000F151E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724D47F61A90F107000F151E /* CoreGraphics.framework */; };
-		724D47FC1A90F1AE000F151E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D47FB1A90F1AE000F151E /* Reachability.m */; settings = {COMPILER_FLAGS = "-objc-arc"; }; };
+		724D48131A90F767000F151E /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D48021A90F767000F151E /* GCDViewController.m */; };
+		724D48141A90F767000F151E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D48051A90F767000F151E /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		724D48151A90F767000F151E /* notificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D48081A90F767000F151E /* notificationViewController.m */; };
+		724D48161A90F767000F151E /* notificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724D48091A90F767000F151E /* notificationViewController.xib */; };
+		724D48171A90F767000F151E /* notiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D480B1A90F767000F151E /* notiViewController.m */; };
+		724D48181A90F767000F151E /* notiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724D480C1A90F767000F151E /* notiViewController.xib */; };
+		724D48191A90F767000F151E /* blockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D480F1A90F767000F151E /* blockViewController.m */; };
+		724D481A1A90F767000F151E /* blockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724D48101A90F767000F151E /* blockViewController.xib */; };
+		724D481B1A90F767000F151E /* showBtnColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 724D48121A90F767000F151E /* showBtnColor.m */; };
 		727D19811A8F9E09003A2075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 727D19801A8F9E09003A2075 /* main.m */; };
 		727D19841A8F9E09003A2075 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 727D19831A8F9E09003A2075 /* AppDelegate.m */; };
 		727D19871A8F9E09003A2075 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 727D19861A8F9E09003A2075 /* ViewController.m */; };
@@ -26,9 +30,6 @@
 		727D198F1A8F9E09003A2075 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727D198D1A8F9E09003A2075 /* LaunchScreen.xib */; };
 		727D199B1A8F9E0A003A2075 /* dkFourthFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 727D199A1A8F9E0A003A2075 /* dkFourthFileTests.m */; };
 		727D19A51A8FAD42003A2075 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727D19A41A8FAD41003A2075 /* ViewController.xib */; };
-		727D19AC1A8FAE8E003A2075 /* blockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 727D19AA1A8FAE8E003A2075 /* blockViewController.m */; };
-		727D19AD1A8FAE8E003A2075 /* blockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727D19AB1A8FAE8E003A2075 /* blockViewController.xib */; };
-		727D19B01A8FAEF4003A2075 /* showBtnColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 727D19AF1A8FAEF4003A2075 /* showBtnColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		724D47DF1A90DCDD000F151E /* notificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notificationViewController.h; sourceTree = "<group>"; };
-		724D47E01A90DCDD000F151E /* notificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = notificationViewController.m; sourceTree = "<group>"; };
-		724D47E11A90DCDD000F151E /* notificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = notificationViewController.xib; sourceTree = "<group>"; };
-		724D47E41A90DD79000F151E /* notiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notiViewController.h; sourceTree = "<group>"; };
-		724D47E51A90DD79000F151E /* notiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = notiViewController.m; sourceTree = "<group>"; };
-		724D47E61A90DD79000F151E /* notiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = notiViewController.xib; sourceTree = "<group>"; };
 		724D47E91A90F0CC000F151E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		724D47EB1A90F0D7000F151E /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
 		724D47ED1A90F0DD000F151E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -55,8 +50,21 @@
 		724D47F21A90F0FA000F151E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		724D47F41A90F102000F151E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		724D47F61A90F107000F151E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		724D47FA1A90F1AE000F151E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		724D47FB1A90F1AE000F151E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		724D48011A90F767000F151E /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		724D48021A90F767000F151E /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		724D48041A90F767000F151E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		724D48051A90F767000F151E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		724D48071A90F767000F151E /* notificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notificationViewController.h; sourceTree = "<group>"; };
+		724D48081A90F767000F151E /* notificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = notificationViewController.m; sourceTree = "<group>"; };
+		724D48091A90F767000F151E /* notificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = notificationViewController.xib; sourceTree = "<group>"; };
+		724D480A1A90F767000F151E /* notiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notiViewController.h; sourceTree = "<group>"; };
+		724D480B1A90F767000F151E /* notiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = notiViewController.m; sourceTree = "<group>"; };
+		724D480C1A90F767000F151E /* notiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = notiViewController.xib; sourceTree = "<group>"; };
+		724D480E1A90F767000F151E /* blockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blockViewController.h; sourceTree = "<group>"; };
+		724D480F1A90F767000F151E /* blockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blockViewController.m; sourceTree = "<group>"; };
+		724D48101A90F767000F151E /* blockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = blockViewController.xib; sourceTree = "<group>"; };
+		724D48111A90F767000F151E /* showBtnColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showBtnColor.h; sourceTree = "<group>"; };
+		724D48121A90F767000F151E /* showBtnColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showBtnColor.m; sourceTree = "<group>"; };
 		727D197B1A8F9E09003A2075 /* dkFourthFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dkFourthFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		727D197F1A8F9E09003A2075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		727D19801A8F9E09003A2075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,11 +78,6 @@
 		727D19991A8F9E0A003A2075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		727D199A1A8F9E0A003A2075 /* dkFourthFileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dkFourthFileTests.m; sourceTree = "<group>"; };
 		727D19A41A8FAD41003A2075 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		727D19A91A8FAE8E003A2075 /* blockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blockViewController.h; sourceTree = "<group>"; };
-		727D19AA1A8FAE8E003A2075 /* blockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blockViewController.m; sourceTree = "<group>"; };
-		727D19AB1A8FAE8E003A2075 /* blockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = blockViewController.xib; sourceTree = "<group>"; };
-		727D19AE1A8FAEF4003A2075 /* showBtnColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showBtnColor.h; sourceTree = "<group>"; };
-		727D19AF1A8FAEF4003A2075 /* showBtnColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showBtnColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,19 +105,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		724D47DE1A90DC9D000F151E /* 通知 */ = {
-			isa = PBXGroup;
-			children = (
-				724D47DF1A90DCDD000F151E /* notificationViewController.h */,
-				724D47E01A90DCDD000F151E /* notificationViewController.m */,
-				724D47E11A90DCDD000F151E /* notificationViewController.xib */,
-				724D47E41A90DD79000F151E /* notiViewController.h */,
-				724D47E51A90DD79000F151E /* notiViewController.m */,
-				724D47E61A90DD79000F151E /* notiViewController.xib */,
-			);
-			name = "通知";
-			sourceTree = "<group>";
-		};
 		724D47F81A90F113000F151E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,13 +120,48 @@
 			path = dkFourthFileTests;
 			sourceTree = "<group>";
 		};
-		724D47F91A90F196000F151E /* Reachability */ = {
+		724D48001A90F767000F151E /* 多线程 */ = {
 			isa = PBXGroup;
 			children = (
-				724D47FA1A90F1AE000F151E /* Reachability.h */,
-				724D47FB1A90F1AE000F151E /* Reachability.m */,
+				724D48011A90F767000F151E /* GCDViewController.h */,
+				724D48021A90F767000F151E /* GCDViewController.m */,
+				724D48031A90F767000F151E /* Reachability */,
 			);
-			name = Reachability;
+			path = "多线程";
+			sourceTree = "<group>";
+		};
+		724D48031A90F767000F151E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				724D48041A90F767000F151E /* Reachability.h */,
+				724D48051A90F767000F151E /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		724D48061A90F767000F151E /* 通知 */ = {
+			isa = PBXGroup;
+			children = (
+				724D48071A90F767000F151E /* notificationViewController.h */,
+				724D48081A90F767000F151E /* notificationViewController.m */,
+				724D48091A90F767000F151E /* notificationViewController.xib */,
+				724D480A1A90F767000F151E /* notiViewController.h */,
+				724D480B1A90F767000F151E /* notiViewController.m */,
+				724D480C1A90F767000F151E /* notiViewController.xib */,
+			);
+			path = "通知";
+			sourceTree = "<group>";
+		};
+		724D480D1A90F767000F151E /* block */ = {
+			isa = PBXGroup;
+			children = (
+				724D480E1A90F767000F151E /* blockViewController.h */,
+				724D480F1A90F767000F151E /* blockViewController.m */,
+				724D48101A90F767000F151E /* blockViewController.xib */,
+				724D48111A90F767000F151E /* showBtnColor.h */,
+				724D48121A90F767000F151E /* showBtnColor.m */,
+			);
+			path = block;
 			sourceTree = "<group>";
 		};
 		727D19721A8F9E09003A2075 = {
@@ -203,32 +228,12 @@
 		727D19A61A8FAE2C003A2075 /* viewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				727D19A81A8FAE55003A2075 /* block */,
-				724D47DE1A90DC9D000F151E /* 通知 */,
-				727D19A71A8FAE49003A2075 /* 多线程 */,
+				724D48001A90F767000F151E /* 多线程 */,
+				724D48061A90F767000F151E /* 通知 */,
+				724D480D1A90F767000F151E /* block */,
 			);
 			name = viewControllers;
 			path = dkFourthFile;
-			sourceTree = "<group>";
-		};
-		727D19A71A8FAE49003A2075 /* 多线程 */ = {
-			isa = PBXGroup;
-			children = (
-				724D47F91A90F196000F151E /* Reachability */,
-			);
-			name = "多线程";
-			sourceTree = "<group>";
-		};
-		727D19A81A8FAE55003A2075 /* block */ = {
-			isa = PBXGroup;
-			children = (
-				727D19A91A8FAE8E003A2075 /* blockViewController.h */,
-				727D19AA1A8FAE8E003A2075 /* blockViewController.m */,
-				727D19AB1A8FAE8E003A2075 /* blockViewController.xib */,
-				727D19AE1A8FAEF4003A2075 /* showBtnColor.h */,
-				727D19AF1A8FAEF4003A2075 /* showBtnColor.m */,
-			);
-			name = block;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,12 +316,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				724D481A1A90F767000F151E /* blockViewController.xib in Resources */,
 				727D198F1A8F9E09003A2075 /* LaunchScreen.xib in Resources */,
+				724D48161A90F767000F151E /* notificationViewController.xib in Resources */,
 				727D19A51A8FAD42003A2075 /* ViewController.xib in Resources */,
-				724D47E81A90DD79000F151E /* notiViewController.xib in Resources */,
-				724D47E31A90DCDD000F151E /* notificationViewController.xib in Resources */,
-				727D19AD1A8FAE8E003A2075 /* blockViewController.xib in Resources */,
 				727D198C1A8F9E09003A2075 /* Images.xcassets in Resources */,
+				724D48181A90F767000F151E /* notiViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,12 +341,13 @@
 			files = (
 				727D19871A8F9E09003A2075 /* ViewController.m in Sources */,
 				727D19841A8F9E09003A2075 /* AppDelegate.m in Sources */,
-				724D47FC1A90F1AE000F151E /* Reachability.m in Sources */,
-				727D19AC1A8FAE8E003A2075 /* blockViewController.m in Sources */,
-				724D47E21A90DCDD000F151E /* notificationViewController.m in Sources */,
-				727D19B01A8FAEF4003A2075 /* showBtnColor.m in Sources */,
+				724D481B1A90F767000F151E /* showBtnColor.m in Sources */,
+				724D48191A90F767000F151E /* blockViewController.m in Sources */,
 				727D19811A8F9E09003A2075 /* main.m in Sources */,
-				724D47E71A90DD79000F151E /* notiViewController.m in Sources */,
+				724D48151A90F767000F151E /* notificationViewController.m in Sources */,
+				724D48131A90F767000F151E /* GCDViewController.m in Sources */,
+				724D48141A90F767000F151E /* Reachability.m in Sources */,
+				724D48171A90F767000F151E /* notiViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
